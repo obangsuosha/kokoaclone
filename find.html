@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find</title>
+    <link rel="stylesheet" href="./dist/css/reset.css">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+    <script src="https://kit.fontawesome.com/43e5bb2bb5.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="screen">
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>15%</span>
+            <i class="fas fa-battery-quarter"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa"></i></span>
+            <span><a href="setting.html"><i class="fas fa-cog fa"></i></a></span>
+        </div>
+    </header>
+    <nav class="nav nav-bottom">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__a" href="friends.html"><i class="fas fa-user-alt fa-2x nc"></i></a></li>
+            <li class="nav__btn"><a class="nav__a" href="chat.html">
+                    <span class="nav__notification badge">8</span>
+                    <i class="fas fa-comment fa-2x nc"></i>
+                </a></li>
+            <li class="nav__btn"><a class="nav__a" href="find.html"><i class="fas fa-search fa-2x current"></i></a></li>
+            <li class="nav__btn"><a class="nav__a" href="more.html"><i class="fas fa-ellipsis-h fa-2x nc"></i></a></li>
+        </ul>
+    </nav>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__a-with-text" href="#"><i class="fas fa-qrcode fa-2x nc"></i><div>QR
+                        Code</div></a>
+            </li>
+            <li class="nav__btn"><a class="nav__a-with-text" href="#"><i class="far fa-address-book fa-2x nc"></i><div>Add
+                        By
+                        Contacts</div></a></li>
+            <li class="nav__btn"><a class="nav__a-with-text" href="#"><i class="fas fa-id-badge fa-2x nc"></i><div>Add by
+                        Id</div></a>
+            </li>
+            <li class="nav__btn"><a class="nav__a-with-text" href="#"><i
+                        class="far fa-envelope fa-2x nc"></i><div>Invite</div></a>
+            </li>
+        </ul>
+    </nav>    
+        <div class="user-channel">
+            <span>Recommend Friends</span>
+        </div>
+        <div class="find-contents">
+            <span>You have no recommended friends.</span>
+        </div>
+        <div class="user-channel">
+            <span>Open Chat</span>
+            <div>
+                <span> Go to Openchat Home</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+        </div>
+        <div class="open-post__list">
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#Wating for Littlebuster!</h5>
+                    <h6 class="open-post__sub">
+                        #canti#haruk#atomusk</h6>
+                    <div class="open-post__info">
+                        <img src="./pictures/001.jpg" />
+                        <span class="open-post__members">999k members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__status__active">Active</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img class="open-post__avatar" src="./pictures/littlebuster.gif" />
+                        <div class="open-post__like">
+                            <i class="fas fa-heart"></i>
+                            <span>326</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open-post">
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#Never knows best..</h5>
+                    <h6 class="open-post__sub">
+                        #soundtrack#thepillows#flcl</h6>
+                    <div class="open-post__info">
+                        <img src="./pictures/004.jpg" />
+                        <span class="open-post__members">17 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__status__inactive">Inactive</span>
+                    </div>
+                </div>
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img class="open-post__avatar" src="./pictures/mamimi-cigarette.gif" />
+                        <div class="open-post__like">
+                            <i class="fas fa-heart"></i>
+                            <span>2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+        
+    </div>
+</body>
+
+</html>

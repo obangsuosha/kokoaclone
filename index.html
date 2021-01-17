@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLCL</title>
+    <link rel="stylesheet" href="./dist/css/reset.css">
+    <link rel="stylesheet" href="./dist/css/styles.css">
+    <script src="https://kit.fontawesome.com/43e5bb2bb5.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+   
+    <div class="screen">
+        <div id="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>15%</span>
+                <i class="fas fa-battery-quarter"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome!</h1>                
+            <p class="welcome-header__desc">if you have a Account,
+                log in with you email or phone number</p>
+        </header>    
+        
+        
+        <form id="login-form" action="friends.html">
+            <input class="input-login" id="login-id" type="text" placeholder="Email or phone number" required/>
+            <input class="input-login" id="login-password"  type="pasword" placeholder="Password" required minlength=8/>
+            <input class="btn-login"type="submit" value="Log In"/>        
+            <a href="#">Find Account or Password</a>
+        </form>
+    </div>
+    
+        
+</body>
+</html>
